@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(city1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.body{
+    font-family: sans-serif;
+    
+}
+
+.contact_box{
+    width: 500px;
+    background-color: #6d6d6d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+
+}
+
+h1{
+    color: white;
+    font:  sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+}
+.btn{
+    border-radius:  10px;
+    color: white;
+    margin-top: 18px;
+    padding: 10px;
+    background-color:  rgb(51, 185, 239);
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+
+}
+label{
+    color: white;
+}
+
+.back_home a{
+    
+    
+    font-size: 16x;
+    padding-left: 45%;
+    padding-right: 35%;
+    text-align: center;
+    color: white;
+}
+
+.back_home a:hover{
+    color: rgb(51, 185, 239);
+    text-decoration: underline;
+}

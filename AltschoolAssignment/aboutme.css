@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(city1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+p{
+    color: rgb(51, 185, 239);
+    margin-top: 10px;
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+}
+
+.education{
+    color: rgb(51, 185, 239);
+    margin-top: 10px;
+}
+
+.hobbies{
+    color: rgb(51, 185, 239);
+    margin-top: 0px;
+}
+
+.job{
+    color: rgb(51, 185, 239);
+    margin-top: 10px;
+}
+
+.goal{
+    color: rgb(51, 185, 239);
+    margin-top: 5px;
+}
+
+.back_home{
+    margin-top: 30px;
+}
+
+.pix{
+    padding-left: 400px;
+    padding-top: 0px;
+}
+img{
+    float: right;
+    margin-right: 50px;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+.back_home a{
+    
+    
+    font-size: 16x;
+    padding-left: 45%;
+    padding-right: 35%;
+    text-align: center;
+    color: white;
+}
+
+.back_home a:hover{
+    color: rgb(51, 185, 239);
+    text-decoration: underline;
+}
